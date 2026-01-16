@@ -1,13 +1,19 @@
 {
   "name": "expo-widget-info",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get information about user-configured widgets on Apple devices",
   "main": "build/index.js",
   "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "expo-module.config.json",
+    "ios",
+    "src"
+  ],
   "scripts": {
     "build": "expo-module build",
     "clean": "expo-module clean",
-    "prepublishOnly": "expo-module prepublishOnly"
+    "prepack": "yarn clean && yarn build"
   },
   "keywords": [
     "react-native",

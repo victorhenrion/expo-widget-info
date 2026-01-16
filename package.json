@@ -2,6 +2,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "lint": "biome check --fix",
+    "format": "dprint fmt"
+  },
   "devDependencies": {
     "@biomejs/biome": "~2.3.0",
     "dprint": "~0.51.0",
