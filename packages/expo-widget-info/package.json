@@ -1,0 +1,34 @@
+{
+  "name": "expo-widget-info",
+  "version": "0.1.0",
+  "description": "Get information about user-configured widgets on Apple devices",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "prepublishOnly": "expo-module prepublishOnly"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "ios",
+    "widget"
+  ],
+  "repository": "https://github.com/victorhenrion/expo-widget-info",
+  "bugs": {
+    "url": "https://github.com/victorhenrion/expo-widget-info/issues"
+  },
+  "author": "Victor Henrion <bonjour@victor.id> (victorhenrion)",
+  "license": "MIT",
+  "homepage": "https://github.com/victorhenrion/expo-widget-info#readme",
+  "devDependencies": {
+    "expo": "54.0.31",
+    "expo-module-scripts": "5.0.8",
+    "react-native": "0.81.5"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react-native": "*"
+  }
+}
